@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="fr">
 <head>
     <meta charset="utf-8">
@@ -7,15 +6,17 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
 	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://kit.fontawesome.com/cc5c53f125.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet"  type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
-	<script src="./js/blocs.js" defer></script>
- 	<script src="./js/jquery.touchSwipe.js" defer></script> 
-
+    
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
 
     <title>La chouette Agence, webdesign à Lyon</title>
 
@@ -31,7 +32,10 @@
 		<nav class="navbar row">
 			<div class="navbar-header">
 				<a class="navbar-brand"   href="index.html">
-					<img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" Width="386" height="72" />
+					<img
+					srcset="img/la-chouette-agence-mobile.png 40w"							
+					sizes="(max-width: 1024px) 40px" 
+					src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" Width="386" height="72" />
 				</a>				
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -54,7 +58,11 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo.png" class="center-block image-resize-mode" width="150" height="150" alt="La chouette agence, agence web paris, création logo paris" />
+				<img 
+				srcset="img/logo-mobile.png 150w"							
+					sizes="(max-width: 1024px) 150px" 
+					src="img/logo.png" 
+					class="center-block image-resize-mode" width="150" height="150" alt="La chouette agence, agence web paris, création logo paris" />
 				<h1 class="text-center hero-bloc-text tc-white ">
 					La chouette agence.
 				</h1>
