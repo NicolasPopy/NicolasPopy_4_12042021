@@ -287,6 +287,49 @@ a:hover {
     font-size: 32px;
 }
 
+#bloc-2-services h1 {
+    font-size: 24px;
+    margin: 0 180px 0 180px;
+}
+
+#bloc-2-services h3 {
+    font-size: 14px; 
+    line-height: 28px;
+    margin: 0 80px 0 80px;
+    
+}
+
+#bloc-2-services h4 {
+    font-size: 14px;
+}
+
+#bloc-3-what-i-do h1{
+    font-size: 24px;
+}
+
+#bloc-4-portfolio h1{
+    font-size: 24px;
+    margin: 0 260px 0 260px;
+}
+
+#bloc-4-portfolio h2{
+    font-size: 18px;
+    font-weight: bold; 
+    line-height:16px;
+}
+
+#bloc-5-cta h1{
+    font-size: 24px;
+}
+
+#bloc-8 h1{
+    font-size: 16px;
+}
+
+#bloc-7 p{
+    
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
