@@ -300,6 +300,15 @@ a:hover {
     font-size: 14px;
 }
 
+#bloc-2-services blockquote{
+    color:black;
+}
+
+#bloc-2-services figcaption{
+    color:black;
+    font-size: 16px;
+}
+
 #bloc-3-what-i-do h2{
     font-size: 24px;
 }
@@ -331,7 +340,9 @@ a:hover {
 }
 
 #bloc-8 h2{
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    color:#333333;
 }
 
 
