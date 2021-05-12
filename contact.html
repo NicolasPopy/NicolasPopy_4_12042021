@@ -7,8 +7,9 @@
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://kit.fontawesome.com/cc5c53f125.js" crossorigin="anonymous"></script>
+	<!--<script src="https://kit.fontawesome.com/cc5c53f125.js" crossorigin="anonymous"></script>-->
 
 	
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" defer integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -16,7 +17,7 @@
 	<script src="./js/blocs.js" defer></script>
 	<script src="./js/jqBootstrapValidation.js" defer></script>
 	<script src="./js/formHandler.js" defer></script>
-    <title>Nous contacter</title>
+    <title>Comment nous contacter ? </title>
 
     
 <!-- Analytics -->
@@ -25,148 +26,155 @@
     
 </head>
 <body>
-<!-- Principal conteneur -->
-<div class="page-container">
-    
-<!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
-	<div class="container bloc-sm">
-		<nav class="navbar row">
-			<div class="navbar-header">
-				<a class="navbar-brand" tabindex="0" href="index.html">
-					<img src="img/la-chouette-agence.png" alt="Logo La chouette Agence" Width="214" height="40"  />
-				</a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html" tabindex="0">Accueil</a>
-					</li>
-					<li>
-					</li>
-					<li>
-						<a href="contact.html" tabindex="0">Nous contacter</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-</div>
-<!-- bloc-0 END -->
 
-<!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-vwhite">
-					Parlons web design !
-				</h1>
-				<p class="text-center mg-lg tc-vwhite tight-width-whitespace">
-					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-				</p>
+	<header>
+		<!-- bloc-0 -->
+		<div class="bloc bgc-white l-bloc " id="bloc-0">
+			<div class="container bloc-sm">
+				<nav class="navbar row">
+					<div class="navbar-header">
+						<a class="navbar-brand" tabindex="0" href="index.html">
+							<img src="img/la-chouette-agence.png" alt="Logo La chouette Agence" Width="214" height="40"  />
+						</a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav">
+							<li>
+								<a href="index.html" tabindex="0">Accueil</a>
+							</li>
+							<li>
+							</li>
+							<li>
+								<a href="contact.html" tabindex="0">Nous contacter</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
 			</div>
 		</div>
-	</div>
-</div>
-<!-- bloc-6 END -->
+	<!-- bloc-0 END -->
+	</header>    
 
-<!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate >
-					<div class="form-group">
-						<label>
-							Nom
-							<input id="name" class="form-control" required tabindex="0" />
-						</label>
-						
-					</div>
-					<div class="form-group">
-						<label>
-							Adresse email
-							<input id="email" class="form-control" type="email" required tabindex="0" />
-						</label>
-						
-					</div>
-					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-							<input class="form-control" type="email" required id="input_504" tabindex="0" />
-						</label>
-						
-					</div>
-					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-							<textarea id="message" class="form-control" rows="4" cols="50" required tabindex="0"></textarea>
-						</label>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" tabindex="0">
-						Envoyer
-					</button>
-				</form>
-			</div>
-			<div class="col-sm-6">
-				<p>
-					<a href="mailto:contact@lachouetteagence.com" tabindex="0">contact@lachouetteagence.com</a> <br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-7 END -->
-
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" tabindex="0"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
-
-
-<!-- Footer - bloc-8 -->
-<footer class="bloc bg-dots-bg bgc-atomic-tangerine d-bloc" id="bloc-8">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<p class="text-center">
-					La chouette agence - Agence web basée à Lyon
-				</p>
-				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" aria-label="Lien Twitter" href="index.html" tabindex="0"><span aria-hidden="true" class="fa fa-twitter icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" aria-label="Lien Facebook" href="index.html" tabindex="0"><span aria-hidden="true" class="fa fa-facebook icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" aria-label="Lien Dribble" href="index.html" tabindex="0"><span aria-hidden="true" class="fa fa-dribbble icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" aria-label="Lien Instagram" href="index.html" tabindex="0"><span aria-hidden="true" class="fa fa-instagram icon-md"></span></a>
-						</div>
+	<!-- Principal conteneur -->
+	<main class="page-container">
+		<!-- bloc-6 -->
+		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+			<div class="container bloc-lg">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="text-center hero-bloc-text tc-vwhite">
+							Parlons web design !
+						</h1>
+						<p class="text-center mg-lg tc-vwhite tight-width-whitespace">
+							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+						</p>
 					</div>
 				</div>
-				
 			</div>
 		</div>
-	</div>
-</footer>
-<!-- Footer - bloc-8 END -->
+		<!-- bloc-6 END -->
 
-</div>
-<!-- Principal conteneur END -->
+		<!-- bloc-7 -->
+		<div class="bloc bgc-white l-bloc" id="bloc-7">
+			<div class="container bloc-lg">
+				<div class="row">
+					<div class="col-sm-6">
+						<h2>Formulaire:</h2>
+						<form id="form_1" novalidate >
+							<div class="form-group">
+								<label>
+									Nom
+									<input id="name" class="form-control" required tabindex="0" />
+								</label>
+								
+							</div>
+							<div class="form-group">
+								<label>
+									Adresse email
+									<input id="email" class="form-control" type="email" required tabindex="0" />
+								</label>
+								
+							</div>
+							<div class="form-group">
+								<label>
+									Comment nous avez-vous connu ?
+									<input class="form-control" type="email" required id="input_504" tabindex="0" />
+								</label>
+								
+							</div>
+							<div class="form-group">
+								<label>
+									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+									<textarea id="message" class="form-control" rows="4" cols="50" required tabindex="0"></textarea>
+								</label>
+							</div> 
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" tabindex="0">
+								Envoyer
+							</button>
+						</form>
+					</div>
+					<div class="col-sm-6">
+						<h2>Comment nous contacter ?</h2>
+						<span>							
+							<a href="mailto:contact@lachouetteagence.com" tabindex="0">contact@lachouetteagence.com</a>
+							<br><address>place Sathonay 69001 Lyon</address> Horaires d'ouverture : Ouvert de 9h à 18h, du lundi au vendredi<br>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- bloc-7 END -->
+
+		<!-- ScrollToTop Button -->
+		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" tabindex="0"><span class="fa fa-chevron-up"></span></a>
+		<!-- ScrollToTop Button END-->
+
+	<!-- Principal conteneur END -->
+	</main>
+
+	<!-- Footer - bloc-8 -->
+	<footer class="bloc bg-dots-bg bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<div class="container bloc-sm">
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="text-center">
+						La chouette agence - Agence web basée à Lyon
+					</p>
+					<div class="row row-no-gutters social">
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" aria-label="Lien Twitter" href="index.html" tabindex="0"><span aria-hidden="true" class="fa fa-twitter icon-md"></span></a>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" aria-label="Lien Facebook" href="index.html" tabindex="0"><span aria-hidden="true" class="fa fa-facebook icon-md"></span></a>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" aria-label="Lien Dribble" href="index.html" tabindex="0"><span aria-hidden="true" class="fa fa-dribbble icon-md"></span></a>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" aria-label="Lien Instagram" href="index.html" tabindex="0"><span aria-hidden="true" class="fa fa-instagram icon-md"></span></a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer - bloc-8 END -->
+
+
+
     
 
 </body>
