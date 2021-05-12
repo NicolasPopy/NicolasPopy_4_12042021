@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel button:hover,
@@ -575,7 +575,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -1103,4 +1103,13 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+:focus { border: 2px dotted #000000; }
+
+address{
+    margin:0;
+    padding:0;
+    display: block;
 }
