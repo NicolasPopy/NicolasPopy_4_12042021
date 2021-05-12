@@ -14,7 +14,6 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
     cursor: pointer;
 }
 
@@ -1112,4 +1111,13 @@ address{
     margin:0;
     padding:0;
     display: block;
+}
+
+.bloc-addresse{
+    font-size: 16px;
+}
+
+
+.bloc-addresse p{
+    font-size: 16px;
 }
